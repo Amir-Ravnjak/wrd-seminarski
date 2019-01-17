@@ -1,0 +1,16 @@
+#container1{
+    margin: 7pc;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius:15px;
+  }
+  .about{
+    width:35pc;
+    text-align: center;
+    color:white;
+  }
+  .about img{
+      width:20pc;
+      height: auto;
+  }

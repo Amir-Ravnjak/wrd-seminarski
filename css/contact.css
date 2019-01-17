@@ -1,0 +1,42 @@
+#container1{
+    width:100%;
+    height: 100%;
+    margin-top:5%;
+    text-align: center;
+}
+
+#forma1{
+    text-align: center;
+    margin-top: 6vh;
+}
+
+input[type="text"], input[type="email"],#poruka{
+    background-color: lightblue;
+    border:0.5pc white ;
+    border-radius: 1.5pc;
+    height: 3.5vh;
+    width: 25vw;
+    border-top-left-radius: 0%;
+    text-align: center;
+    margin-top:1pc;
+}
+form div{
+    margin-top:20px;
+}
+#poruka{
+    height:10vh;
+    text-align: left;
+}
+
+#sub{
+    padding:7px 20px;
+    background-color:rgb(30, 128, 225);
+    border:none;    
+}
+#sub:hover {
+    background-color: rgb(40, 140, 225);
+  }
+.error{
+    color:red;
+    margin-bottom: -10px;
+}

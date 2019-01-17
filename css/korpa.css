@@ -1,0 +1,40 @@
+  #container1{
+    margin: 7pc;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius:15px;
+    background-color: white;
+    width:60%;
+  }
+
+  table{
+    width:100%;
+    min-height: 5pc;
+    text-align: left;
+    margin-left: 2pc;
+    margin-top:3pc;
+  }
+
+  button{
+    padding:7px 20px;
+    background-color:rgb(30, 128, 225);
+    border:none;
+    margin-top:2pc;
+    margin-bottom: 2pc;
+      
+}
+  button:hover#odustani {
+    background-color: rgb(40, 140, 225);
+  }
+  
+  tr{
+    height:2pc;
+  }
+  tr td:last-of-type{
+    text-align: center;
+  }
+  tr:last-of-type td:last-of-type{
+    border-top:1px solid black;
+    height: 6pc;
+  }

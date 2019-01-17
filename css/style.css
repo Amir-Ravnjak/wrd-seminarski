@@ -1,0 +1,65 @@
+html { 
+    background: url(../Slike/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#header{
+    margin-top:3%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    text-align: center;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#logo h1{
+    display: inline;
+    vertical-align: 2pc;
+    color: white;
+}
+#links{
+    margin-top: 3%;
+    margin-right: 5%;
+    max-width: 40%;
+}
+#links a{
+    display: inline-block;
+    padding:0.7em;
+    flex-wrap:wrap;
+}
+#links a:hover{
+    background-color: white;
+    color:blue;
+}
+
+
+#footer { 
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    text-align: center;
+    font-size:1.5vh;
+    color:lightblue;
+}
+.dropdown {
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: url(../Slike/background.jpg);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+

@@ -1,0 +1,23 @@
+#container1{
+    margin: 7pc;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius:15px;
+    background: url(../Slike/skills.jpg) center center fixed;
+    
+  }
+  .skills{
+    width:15pc;
+    text-align: center;
+    color:black;
+    margin:2pc;
+    background-color: burlywood;
+    
+    border-radius:15px;
+    padding:10px;
+  }
+  .skills p{
+      text-align: left;
+      color:black;
+  }

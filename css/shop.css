@@ -1,0 +1,37 @@
+button {
+    padding:7px 20px;
+    background-color:rgb(30, 128, 225);
+    border:none;   
+    margin-top: 2pc;
+    margin-left: 2pc;
+    max-width: 10em; 
+}
+button:hover {
+    background-color: rgb(40, 140, 225);
+  }
+
+#app,#sw,#hw{
+  margin: 3pc;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius:15px;
+  
+}
+.proizvod{
+  width:41%;
+  text-align: left;
+  color:black;
+  margin:1pc;
+  background-color: white;
+  border-radius:15px;
+  padding:10px;
+}
+.proizvod p{
+    text-align: left;
+    color:black;
+}
+.proizvod img{
+    height: auto;
+    width: 40%;
+}
